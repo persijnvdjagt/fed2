@@ -285,7 +285,7 @@ footer {
   grid-template-columns: 1fr 1fr;
   margin: 0;
   background-color: var(--footer);
-    padding-bottom: 8rem;
+  padding-bottom: 8rem;
 
   h2 {
     padding-left: 1.5em;
@@ -351,52 +351,50 @@ main section:nth-of-type(7) details ul {
 /* postcode zoeker */
 
 main section:nth-of-type(9) {
-  background-color: #f7f7f7; 
-  padding: 2em 1em; 
-  margin-top: 2em; 
+  background-color: #f7f7f7;
+  padding: 2em 1em;
+  margin-top: 2em;
 }
 
-/* De titel centreren */
 main section:nth-of-type(9) h2 {
   text-align: center;
-  margin-top: 0; 
+  margin-top: 0;
 }
 
-/* De 'Postcode:' paragraaf */
 main section:nth-of-type(9) p {
   text-align: left;
-  margin-bottom: 0.5em; 
+  margin-bottom: 0.5em;
   margin-top: 0;
 }
 
 main section:nth-of-type(9) input[type="text"] {
-  width: 100%; 
-  padding: 0.75em; 
-  border: 1px solid #ccc; 
-  border-radius: 3em; 
+  width: 100%;
+  padding: 0.75em;
+  border: 1px solid #ccc;
+  border-radius: 3em;
   box-sizing: border-box;
-  font-size: 1em; 
+  font-size: 1em;
 }
 
 main section:nth-of-type(9) a {
-  display: block; 
+  display: block;
   background-color: #39373a;
-  color: #ffffff; 
-  text-decoration: none; 
-  padding: 1em; 
-  border-radius: 0.5em; 
-  text-align: center; 
-  margin-top: 1em; 
+  color: #ffffff;
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 0.5em;
+  text-align: center;
+  margin-top: 1em;
 }
 
 /* grijze divider styling */
 
 hr {
-  border: 0; 
-  height: 1.5px; 
-  background-color: #39373a; 
+  border: 0;
+  height: 1.5px;
+  background-color: var(--text);
   width: 50%;
-  margin: 2.5em auto; 
+  margin: 2.5em auto;
 }
 
 /* menu styling */
@@ -405,7 +403,7 @@ footer nav {
   position: fixed;
   bottom: 0;
   left: 0;
-  background-color: #39373A;
+  background-color: #39373a;
   height: 6.25rem;
   width: 100%;
   display: flex;
@@ -435,4 +433,3 @@ footer nav {
     }
   }
 }
-
