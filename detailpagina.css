@@ -1,0 +1,499 @@
+:root {
+  --bg: #ffffff;
+  --text: #39373a;
+  --footer: rgb(253, 229, 208);
+  --footertext: rgb(57, 55, 58);
+  --digihulp: #ededed;
+  --digihulph2: #ffffff;
+  --digihulpp: rgb(253, 229, 208);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #39373a;
+    --text: #ffffff;
+    --footer: rgb(212, 131, 60);
+    --footertext: rgb(57, 55, 58);
+    --digihulp: rgb(128, 123, 130);
+    --digihulph2: #39373a;
+    --digihulpp: rgb(212, 131, 60);
+  }
+}
+
+body {
+  font-family: "font-bibliotheek", sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px #ededed;
+  padding-left: 1em;
+  border-bottom: 2px solid lightgray;
+}
+
+header img {
+  width: 40%;
+}
+
+header a img {
+  width: 20%;
+}
+
+/* main */
+
+main {
+  h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  section:nth-of-type(1) {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+
+    h2 {
+      font-size: 2em;
+    }
+
+    a:nth-of-type(1) {
+      text-decoration: none;
+      border: 2px solid var(--text);
+      max-width: 20%;
+      padding: 0.3em;
+      border-radius: 0.5em;
+      color: var(--text);
+      text-align: center;
+    }
+
+    img {
+      margin-top: 4em;
+      border-radius: 1em;
+    }
+
+    a:nth-of-type(2) {
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+      color: var(--text);
+      padding-bottom: 3em;
+    }
+
+    a:nth-of-type(2)::after {
+      content: "\2192";
+      padding-left: 0.5em;
+    }
+
+    p:nth-of-type(2)::before {
+      content: "";
+      display: block;
+      width: 12em;
+      height: 2px;
+      margin-bottom: 2em;
+    }
+  }
+
+  section:nth-of-type(2) {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    h2 {
+      font-size: 2em;
+      margin: 0;
+    }
+
+    a {
+      text-decoration: none;
+      border: 2px solid var(--text);
+      max-width: 20%;
+      padding: 0.3em;
+      border-radius: 0.5em;
+      text-align: center;
+      color: var(--text);
+    }
+
+    img {
+      margin: 1em 1em 1em 0;
+      border-radius: 1em;
+    }
+  }
+
+  section:nth-of-type(3) {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 0;
+    }
+
+    a {
+      text-decoration: none;
+      border: 2px solid var(--text);
+      max-width: 50%;
+      padding: 0.3em;
+      border-radius: 0.5em;
+      text-align: center;
+      color: var(--text);
+    }
+
+    img {
+      margin: 1em 1em 1em 0;
+      border-radius: 1em;
+    }
+  }
+
+  section:nth-of-type(4) {
+    display: flex;
+    flex-direction: column;
+    h2 {
+      font-size: 2em;
+      margin: 0;
+      padding-top: 1em;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    p:nth-of-type(5) {
+      padding-top: 2em;
+    }
+
+    a {
+      padding: 1.5em 1em 1em 2em;
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    a::before {
+      content: "\276F";
+      padding-right: 1.5em;
+      color: var(--text);
+    }
+  }
+
+  section:nth-of-type(5) {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+
+    p {
+      margin: 0;
+      padding: 0.5em;
+    }
+    a {
+      padding: 1.5em 1em 1em 2em;
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    a::before {
+      content: "\276F";
+      padding-right: 1.5em;
+    }
+  }
+
+  section:nth-of-type(6) {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    h2 {
+      font-size: 2em;
+    }
+  }
+
+  section:nth-of-type(7) {
+    background-color: var(--digihulp);
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+    div {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      width: 90%;
+      margin: 0 auto;
+      background-color: var();
+      background-color: var(--digihulpp);
+      border-radius: 2em;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      background-color: var(--digihulph2);
+      padding: 1em;
+      border-top-left-radius: 1em;
+      border-top-right-radius: 1em;
+      margin-top: 0;
+    }
+
+    p {
+      background-color: var(--);
+      padding-left: 1.5em;
+    }
+
+    a {
+      text-decoration: none;
+      border: 2px solid var(--text);
+      width: fit-content;
+      color: var(--text);
+      background-color: var(--bg);
+      border-radius: 0.5em;
+      padding: 0.5em;
+      margin-left: 1.5em;
+    }
+
+    a::after {
+      content: "\2192";
+      padding-left: 0.5em;
+    }
+
+    img {
+      border-bottom-left-radius: 1em;
+      border-bottom-right-radius: 1em;
+      padding-top: 1.5em;
+    }
+  }
+
+  section:nth-of-type(8) {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 0.5em 3em 0.5em;
+    border-radius: 1em;
+
+    a {
+      display: flex;
+      margin: 0 auto;
+      text-decoration: none;
+      color: var(--text);
+    }
+    a::after {
+      content: "\2192";
+      padding-left: 0.5em;
+    }
+  }
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0;
+  background-color: var(--footer);
+  padding-bottom: 8rem;
+
+  h2 {
+    padding-left: 1.5em;
+    color: var(--footertext);
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--footertext);
+  }
+}
+
+hr {
+  border: 0; /* Verwijder de standaard 3D-rand */
+  height: 1.5px; /* Geef de lijn een dikte van 1px */
+  background-color: #39373a; /* Geef het je donkere --text kleur */
+  width: 50%;
+  margin: 2.5em auto; /* Geef het flink wat ruimte (boven/onder) */
+}
+
+footer nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #39373a;
+  height: 6.25rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    li {
+      width: 100%;
+
+      a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+
+        img {
+          height: 2em;
+          max-width: 4em;
+        }
+      }
+    }
+  }
+}
+
+/* Bron Google Gemini: 
+Prompt:
+Hoe maak ik met javascript een hamburger menu als op deze website als ik hem op mobiel formaat codeer. Doe dit ook voor de zoekfunctie.
+https://www.onlinebibliotheek.nl/klantenservice/lid-worden.html
+----- */
+
+/* De 'Menu' knop in de footer-navigatie */
+#menu-knop {
+  cursor: pointer; /* Maakt duidelijk dat het klikbaar is */
+}
+
+/* Het verborgen menu-paneel */
+#fullscreen-menu {
+  position: fixed; /* Blijft op zijn plek, zelfs bij scrollen */
+  top: 0;
+  left: 0;
+  width: 100vw; /* 100% van de view-breedte */
+  height: 100vh; /* 100% van de view-hoogte */
+  background-color: var(--bg); /* Gebruikt je --bg variabele */
+  z-index: 100; /* Zorgt dat het BOVENOP al het andere ligt */
+
+  /* Standaard verborgen */
+  display: none;
+
+  /* Een simpele fade-in animatie (optioneel maar leuk) */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Deze class wordt met JS toegevoegd */
+#fullscreen-menu.menu-open {
+  display: block; /* Maak het zichtbaar */
+  opacity: 1; /* Maak het volledig dekkend */
+}
+
+/* De 'X' sluitknop */
+#sluit-knop {
+  position: absolute;
+  top: 1.5em;
+  right: 1.5em;
+  font-size: 2em; /* Maak de 'X' groot */
+  color: var(--text); /* Je standaard tekstkleur */
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* De navigatielijst in het menu */
+#fullscreen-menu nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Vul de hele hoogte */
+}
+
+#fullscreen-menu nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+#fullscreen-menu nav ul li {
+  margin: 1.5em 0; /* Ruimte tussen de menu-items */
+}
+
+#fullscreen-menu nav ul li a {
+  font-size: 2em; /* Grote, duidelijke links */
+  text-decoration: none;
+  color: var(--text);
+  font-weight: 700;
+}
+
+
+/* ----- STYLING VOOR ZOEK-SCHERM ----- */
+
+/* De 'Zoeken' knop in de footer-navigatie */
+#zoek-knop {
+    cursor: pointer; /* Maakt duidelijk dat het klikbaar is */
+}
+
+/* Het verborgen zoek-paneel */
+#search-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bg);
+    z-index: 100; /* Bovenop alles */
+    
+    /* Standaard verborgen */
+    display: none;
+    
+    /* Simpele fade-in */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+/* Deze class wordt met JS toegevoegd */
+#search-overlay.search-open {
+    display: block; /* Maak het zichtbaar */
+    opacity: 1;
+}
+
+/* De 'X' sluitknop (kopie van de menu-sluitknop) */
+#sluit-zoek-knop {
+    position: absolute;
+    top: 1.5em;
+    right: 1.5em;
+    font-size: 2em;
+    color: var(--text);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Het formulier in het midden zetten */
+#search-overlay form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 2em;
+}
+
+#search-overlay h2 {
+    font-size: 2em;
+    color: var(--text);
+}
+
+/* De zoekbalk (input) */
+#search-overlay input {
+    font-size: 1.2em;
+    padding: 0.5em;
+    width: 80%;
+    border: 2px solid var(--text);
+    border-radius: 0.5em;
+}
+
+/* De zoek-knop */
+#search-overlay button[type="submit"] {
+    font-size: 1.2em;
+    font-weight: 700;
+    padding: 0.75em 1.5em;
+    background-color: var(--text);
+    color: var(--bg);
+    border: none;
+    border-radius: 0.5em;
+    margin-top: 1em;
+    cursor: pointer;
+}
