@@ -169,3 +169,24 @@ https://www.onlinebibliotheek.nl/klantenservice/lid-worden.html
   margin-top: 1em;
   cursor: pointer;
 }
+
+
+#naar-boven-knop {
+  display: none; /* Standaard verborgen */
+  position: fixed; /* Blijft op dezelfde plek */
+  bottom: 8em; /* Boven de footer-navigatiebalk */
+  right: 1.5em;
+  z-index: 99; /* Zorgt dat hij boven andere elementen zweeft */
+  border: none;
+  outline: none;
+  background-color: rgb(255, 114, 31); /* De oranje kleur van je site */
+  color: white;
+  cursor: pointer;
+  padding: 0.8em 1em; /* Iets meer padding */
+  border-radius: 50%; /* Maakt het een rondje */
+  font-size: 1.2em;
+}
+
+#naar-boven-knop:hover {
+  background-color: #39373a; /* Donkere kleur bij hover */
+}

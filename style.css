@@ -6,6 +6,8 @@
   --digihulp: #ededed;
   --digihulph2: #ffffff;
   --digihulpp: rgb(253, 229, 208);
+  --iconinvert: 0;
+  --iconhuerotate: 0deg;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,6 +19,8 @@
     --digihulp: rgb(128, 123, 130);
     --digihulph2: #39373a;
     --digihulpp: rgb(212, 131, 60);
+    --iconinvert: 1;
+    --iconhuerotate: 180deg;
   }
 }
 
@@ -128,6 +132,7 @@ main section:nth-of-type(5) ul li::before {
   width: 1.3rem;
   height: 1.3rem;
   background-image: url("img/vink.png");
+  filter: invert(var(--iconhuerotate));
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -433,3 +438,8 @@ footer nav {
     }
   }
 }
+
+footer nav a img {
+  filter: invert(var(--iconinvert)) hue-rotate(var(--iconhuerotate));
+}
+

@@ -90,3 +90,49 @@ if (animatedSections.length > 0) {
     observer.observe(section);
   });
 }
+
+
+// Naar boven knop
+  const naarBovenKnop = document.getElementById("naar-boven-knop");
+
+  if (naarBovenKnop) {
+    function scrollFunctie() {
+      if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+        naarBovenKnop.style.display = "block";
+      } else {
+        naarBovenKnop.style.display = "none";
+      }
+    }
+
+    window.onscroll = function() {
+      scrollFunctie();
+    };
+
+    function gaNaarBoven() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth' 
+      });
+    }
+
+    naarBovenKnop.addEventListener("click", gaNaarBoven);
+  }
+
+//  Postcode zoeker
+  const postcodeKnop = document.getElementById("postcode-zoek-knop");
+  const postcodeVeld = document.getElementById("postcode-input");
+
+  if (postcodeKnop && postcodeVeld) {
+    
+    postcodeKnop.addEventListener("click", function(event) {
+      event.preventDefault(); 
+
+      const postcode = postcodeVeld.value; 
+
+      if (postcode === "") {
+        alert("Vul alstublieft een postcode in.");
+      } else {
+        alert("We zoeken naar bibliotheken bij postcode " + postcode );
+      }
+    });
+  }
