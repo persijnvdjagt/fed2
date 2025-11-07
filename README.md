@@ -149,11 +149,16 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
+<img src="readme-images/toegankelijk1.HEIC" width="375px" alt="Toegankelijkheid test">
+  <img src="readme-images/toegankelijk2.HEIC" width="375px" alt="Toegankelijkheid test">
+  <img src="readme-images/toegankelijk3.HEIC" width="375px" alt="Toegankelijkheid test">
+  <img src="readme-images/toegankelijk4.HEIC" width="375px" alt="Toegankelijkheid test">
+  <img src="readme-images/toegankelijk5.HEIC" width="375px" alt="Toegankelijkheid test">
 
 ### Bevindingen
 
 Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
-
+Ik heb de checklist doorgenomen en toegepast op mijn eigen website. Tijdens dit proces heb ik stap voor stap gecontroleerd of de site voldoet aan de richtlijnen voor digitale toegankelijkheid. Denk daarbij aan zaken zoals voldoende contrast tussen tekst en achtergrond, duidelijke kopstructuren, beschrijvende alt-teksten bij afbeeldingen. Vergeleken met de originele versie is de website nu veel toegankelijker en gebruiksvriendelijker. Bezoekers kunnen de inhoud gemakkelijker lezen, vinden en bedienen.
 </details>
 
 ## Voortgang 3 (week 4)
