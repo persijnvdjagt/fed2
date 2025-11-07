@@ -149,11 +149,12 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 <details>
   <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
-<img src="readme-images/toegankelijk1.png" width="375px" alt="Toegankelijkheid test">
-  <img src="readme-images/toegankelijk2.png" width="375px" alt="Toegankelijkheid test">
-  <img src="readme-images/toegankelijk3.png" width="375px" alt="Toegankelijkheid test">
-  <img src="readme-images/toegankelijk4.png" width="375px" alt="Toegankelijkheid test">
-  <img src="readme-images/toegankelijk5.png" width="375px" alt="Toegankelijkheid test">
+  
+<img src="readme-images/Toegankelijk1.png" width="375px" alt="Toegankelijkheid test">
+  <img src="readme-images/Toegankelijk2.png" width="375px" alt="Toegankelijkheid test">
+  <img src="readme-images/Toegankelijk3.png" width="375px" alt="Toegankelijkheid test">
+  <img src="readme-images/Toegankelijk4.png" width="375px" alt="Toegankelijkheid test">
+  <img src="readme-images/Toegankelijk5.png" width="375px" alt="Toegankelijkheid test">
 
 ### Bevindingen
 
